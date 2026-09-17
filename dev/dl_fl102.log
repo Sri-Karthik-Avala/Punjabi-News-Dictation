@@ -1,0 +1,9 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\config.json
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\preprocessor_config.json
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\special_tokens_map.json
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\tokenizer_config.json
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\vocab.json
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\adapter.pan.safetensors
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+OK C:\Users\srika\.cache\huggingface\hub\models--facebook--mms-1b-fl102\snapshots\d483345545bea550895b1aa0c6ba40236b9f1e22\model.safetensors

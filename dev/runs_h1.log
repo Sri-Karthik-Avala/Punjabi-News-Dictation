@@ -1,0 +1,21 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+{'tag': 'h1', 'seed': 0, 'epochs': 4, 'bs': 16, 'lr': 0.0002, 'r': 32, 'alpha_mult': 2, 'targets': 'base', 'enc_full': 0, 'enc_lr': 3e-05, 'speed': 1, 'specaug': 1, 'nbest': 8, 'save': 1, 'wd': 0.01, 'warm': 0.1, 'lsmooth': 0.0, 'holdmod': 5, 'full': 0, 'epoch_eval': 0, 'concat': 0.0, 'ctc_w': 0.3, 'ctc_lr': 0.001}
+train 568 val 147
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.52s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.53s/it]
+trainable M 33.088569
+epoch 1 loss 5.4218 train_s 343 peakGB 6.7
+epoch 2 loss 1.7232 train_s 318 peakGB 6.7
+epoch 3 loss 1.3964 train_s 325 peakGB 6.7
+epoch 4 loss 1.2778 train_s 326 peakGB 6.7
+train total s 1313
+final greedy [0.9134 0.8669 0.96  ]
+final beam8 top1 [0.9111 0.863  0.9591]
+final beam4 [0.9119 0.8644 0.9594]
+teacher-forced top [0.9097 0.8621 0.9572]
+hybrid ctc fusion lam 0.1 [0.9085 0.8614 0.9556]
+hybrid ctc fusion lam 0.2 [0.9064 0.8584 0.9544]
+hybrid ctc fusion lam 0.3 [0.9043 0.8571 0.9516]
+hybrid ctc fusion lam 0.5 [0.8947 0.8434 0.946 ]
+hybrid ctc fusion lam 1.0 [0.8788 0.8203 0.9372]
+done

@@ -1,0 +1,26 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train rows 645  validation rows 70  test rows 185
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.39s/it]
+seq2seq trainable params 607.1M
+seq2seq epoch 1  train loss 1.2327
+seq2seq epoch 2  train loss 0.5696
+seq2seq epoch 3  train loss 0.4327
+seq2seq epoch 4  train loss 0.4290
+Traceback (most recent call last):
+  File "C:\Users\srika\Downloads\eris_punjabi\solution.py", line 193, in <module>
+    f, m = s2t_features([speed_perturb(fit_waves[j]) for j in idx])
+  File "C:\Users\srika\Downloads\eris_punjabi\solution.py", line 155, in s2t_features
+    x = processor(audios=waves, sampling_rate=SAMPLE_RATE, return_tensors="pt")
+  File "C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\models\seamless_m4t\processing_seamless_m4t.py", line 96, in __call__
+    encoding = self.feature_extractor(audios, sampling_rate=sampling_rate, **kwargs)
+  File "C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\models\seamless_m4t\feature_extraction_seamless_m4t.py", line 259, in __call__
+    features = [self._extract_fbank_features(waveform) for waveform in raw_speech]
+  File "C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\models\seamless_m4t\feature_extraction_seamless_m4t.py", line 259, in <listcomp>
+    features = [self._extract_fbank_features(waveform) for waveform in raw_speech]
+  File "C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\models\seamless_m4t\feature_extraction_seamless_m4t.py", line 128, in _extract_fbank_features
+    features = spectrogram(
+  File "C:\Users\srika\anaconda3\envs\max\lib\site-packages\transformers\audio_utils.py", line 654, in spectrogram
+    spectrogram = np.abs(spectrogram, dtype=np.float64) ** power
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.56 MiB for an array with shape (794, 257) and data type float64
+exit 1 elapsed 1047s

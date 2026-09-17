@@ -1,0 +1,14 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+{'mode': 'dec', 'lr': 1e-05, 'epochs': 5, 'bs': 16, 'enc_top': 0, 'lora_r': 32, 'wd': 0.01, 'warm': 0.1, 'tag': 'e1_dec', 'beams': 1, 'speed': 0, 'final_beams': 4, 'full': 0, 'seed': 0}
+train 568 val 147
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.72s/it]
+load 8
+trainable M 604.545024
+epoch 0 val [0.876  0.8171 0.9349]
+epoch 1 loss 1.4767 train_s 50 val [0.8755 0.8157 0.9352] peakGB 13.9
+epoch 2 loss 1.0768 train_s 49 val [0.8844 0.8283 0.9406] peakGB 13.9
+epoch 3 loss 0.7945 train_s 52 val [0.8888 0.8346 0.9431] peakGB 13.9
+epoch 4 loss 0.7214 train_s 52 val [0.8885 0.8339 0.9432] peakGB 13.9
+epoch 5 loss 0.6443 train_s 52 val [0.8889 0.8343 0.9435] peakGB 13.9
+final beam4 val [0.8931 0.8399 0.9463] dec_s 25

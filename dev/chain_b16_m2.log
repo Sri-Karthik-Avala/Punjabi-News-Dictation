@@ -1,0 +1,30 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.98s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.18s/it]
+top1 [0.9141 0.8691 0.9591]
+oracle@16 [0.961  0.9412 0.9807] unique 13.7
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.18s/it]
+a1 self-rescored top (len-norm) [0.9107 0.8633 0.9581]
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+{'mode': 'adapter', 'lr': 0.001, 'epochs': 10, 'bs': 8, 'tag': 'm2', 'seed': 0, 'top': 24, 'enc_lr': 3e-05, 'nbest': 'C:/Users/srika/Downloads/eris_punjabi/dev/runs/c0/rescore_c0_a1.json,C:/Users/srika/Downloads/eris_punjabi/dev/runs/a1/rescore_a1b16.json'}
+vocab 95 missing train chars ['ੳ']
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/mms-1b-all and are newly initialized because the shapes did not match:
+- lm_head.bias: found shape torch.Size([154]) in the checkpoint and torch.Size([95]) in the model instantiated
+- lm_head.weight: found shape torch.Size([154, 1280]) in the checkpoint and torch.Size([95, 1280]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+trainable M 474.531423
+epoch 0 val [0.7778 0.6476 0.9081]
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\utils\checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+epoch 1 loss 0.7075 train_s 148 val [0.8176 0.7123 0.9229] peakGB 7.6
+epoch 2 loss 0.5809 train_s 148 val [0.8242 0.723  0.9254] peakGB 7.6
+epoch 3 loss 0.5472 train_s 148 val [0.8251 0.7236 0.9267] peakGB 7.6
+epoch 4 loss 0.5273 train_s 143 val [0.8287 0.7304 0.9271] peakGB 7.6
+epoch 5 loss 0.5126 train_s 146 val [0.8321 0.735  0.9293] peakGB 7.6
+epoch 6 loss 0.5113 train_s 705 val [0.831  0.7334 0.9286] peakGB 7.6
+epoch 7 loss 0.4917 train_s 153 val [0.8359 0.7417 0.9301] peakGB 7.6
+epoch 8 loss 0.4845 train_s 147 val [0.8349 0.7403 0.9295] peakGB 7.6
+epoch 9 loss 0.4803 train_s 148 val [0.8346 0.7402 0.9291] peakGB 7.6
+epoch 10 loss 0.4817 train_s 149 val [0.836 0.742 0.93 ] peakGB 7.6

@@ -1,0 +1,18 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+{'tag': 'f3', 'seed': 0, 'epochs': 6, 'bs': 16, 'lr': 0.0002, 'r': 32, 'alpha_mult': 2, 'targets': 'base', 'enc_full': 1, 'enc_lr': 3e-05, 'speed': 1, 'specaug': 1, 'nbest': 8, 'save': 1, 'wd': 0.01, 'warm': 0.1, 'lsmooth': 0.0, 'holdmod': 5, 'full': 0, 'epoch_eval': 0, 'concat': 0.0, 'ctc_w': 0.0, 'ctc_lr': 0.001}
+train 568 val 147
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:09<00:00,  4.55s/it]
+trainable M 607.0656
+epoch 1 loss 1.2512 train_s 171 peakGB 13.9
+epoch 2 loss 0.6105 train_s 148 peakGB 13.9
+epoch 3 loss 0.4881 train_s 153 peakGB 13.9
+epoch 4 loss 0.4044 train_s 157 peakGB 13.9
+epoch 5 loss 0.3931 train_s 153 peakGB 13.9
+epoch 6 loss 0.3783 train_s 149 peakGB 13.9
+train total s 931
+final greedy [0.9146 0.8694 0.9599]
+final beam8 top1 [0.9172 0.8728 0.9616]
+final beam4 [0.9181 0.8743 0.9619]
+teacher-forced top [0.9178 0.8738 0.9617]
+done

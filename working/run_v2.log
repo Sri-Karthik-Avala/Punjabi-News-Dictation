@@ -1,0 +1,36 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train rows 645  validation rows 70  test rows 185
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.72s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.62s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.64s/it]
+seq2seq trainable params 33.0M
+seq2seq epoch 1  train loss 1.2510
+seq2seq epoch 2  train loss 0.6250
+seq2seq epoch 3  train loss 0.5144
+seq2seq epoch 4  train loss 0.5514
+seq2seq beam top-1  validation WER 0.1296  CER 0.0400
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/mms-1b-all and are newly initialized because the shapes did not match:
+- lm_head.bias: found shape torch.Size([154]) in the checkpoint and torch.Size([95]) in the model instantiated
+- lm_head.weight: found shape torch.Size([154, 1280]) in the checkpoint and torch.Size([95, 1280]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+ctc trainable params 159.7M
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\utils\checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ctc epoch 1  train loss 0.7132
+ctc epoch 2  train loss 0.5647
+ctc epoch 3  train loss 0.5459
+ctc epoch 4  train loss 0.5288
+ctc epoch 5  train loss 0.5079
+ctc epoch 6  train loss 0.5082
+ctc epoch 7  train loss 0.5219
+ctc epoch 8  train loss 0.4863
+fusion weight 0.00  validation WER 0.1357  CER 0.0439
+fusion weight 0.10  validation WER 0.1250  CER 0.0357
+fusion weight 0.20  validation WER 0.1204  CER 0.0328
+fusion weight 0.30  validation WER 0.1220  CER 0.0338
+fusion weight 0.40  validation WER 0.1220  CER 0.0338
+fusion weight 0.50  validation WER 0.1204  CER 0.0338
+fusion weight 0.70  validation WER 0.1189  CER 0.0338
+fusion weight 1.00  validation WER 0.1159  CER 0.0334
+selected fusion weight 1.00
+wrote 185 rows, empty predictions 0
+exit 0 elapsed 2914s

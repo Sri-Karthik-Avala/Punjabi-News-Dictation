@@ -1,0 +1,12 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+train rows 645  validation rows 70  test rows 185
+Instantiating a decoder SeamlessM4Tv2Attention without passing `layer_idx` is not recommended and will lead to errors during the forward call, if caching is used. Please make sure to provide a `layer_idx` when creating this class.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.92s/it]
+trainable params 33.0M
+epoch 0  validation WER 0.1905  CER 0.0646
+epoch 1  train loss 0.8599  validation WER 0.1479  CER 0.0443
+epoch 2  train loss 0.3740  validation WER 0.1341  CER 0.0413
+epoch 3  train loss 0.3311  validation WER 0.1296  CER 0.0416
+final beam 4  validation WER 0.1296  CER 0.0410
+wrote 185 rows, empty predictions 0
+exit 0 elapsed 567s

@@ -1,0 +1,24 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+OK openai/whisper-large-v3-turbo C:\Users\srika\.cache\huggingface\hub\models--openai--whisper-large-v3-turbo\snapshots\41f01f3fe87f28c78e2fbf8b568835947dd65ed9 0 s
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]
+retry facebook/mms-1b-all 0 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]
+retry facebook/mms-1b-all 1 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|#4        | 1/7 [00:10<01:00, 10.16s/it]Fetching 7 files:  86%|########5 | 6/7 [00:10<00:01,  1.69s/it]
+retry facebook/mms-1b-all 2 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  86%|########5 | 6/7 [00:00<00:00, 81.29it/s]
+retry facebook/mms-1b-all 3 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+retry openai/whisper-large-v3 0 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+retry openai/whisper-large-v3 1 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+retry openai/whisper-large-v3 2 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files:   8%|7         | 1/13 [00:00<00:10,  1.14it/s]Fetching 13 files:  77%|#######6  | 10/13 [00:00<00:00, 11.39it/s]
+retry openai/whisper-large-v3 3 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:   8%|8         | 1/12 [00:00<00:09,  1.15it/s]Fetching 12 files:  25%|##5       | 3/12 [00:01<00:03,  2.31it/s]Fetching 12 files:  33%|###3      | 4/12 [01:52<05:08, 38.61s/it]Fetching 12 files:  33%|###3      | 4/12 [01:52<03:44, 28.05s/it]
+retry facebook/seamless-m4t-v2-large 0 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:  33%|###3      | 4/12 [00:00<00:00, 49.39it/s]
+retry facebook/seamless-m4t-v2-large 1 LocalEntryNotFoundError An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection a
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:  42%|####1     | 5/12 [01:21<01:54, 16.33s/it]Fetching 12 files: 100%|##########| 12/12 [01:21<00:00,  6.80s/it]
+OK facebook/seamless-m4t-v2-large C:\Users\srika\.cache\huggingface\hub\models--facebook--seamless-m4t-v2-large\snapshots\5f8cc790b19fc3f67a61c105133b20b34e3dcb76 206 s

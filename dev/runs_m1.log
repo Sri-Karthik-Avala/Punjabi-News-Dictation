@@ -1,0 +1,19 @@
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+{'mode': 'adapter', 'lr': 0.001, 'epochs': 8, 'bs': 8, 'tag': 'm1', 'seed': 0, 'top': 8, 'enc_lr': 3e-05, 'nbest': 'C:/Users/srika/Downloads/eris_punjabi/dev/runs/c0/rescore_c0_a1.json'}
+vocab 95 missing train chars ['ੳ']
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/mms-1b-all and are newly initialized because the shapes did not match:
+- lm_head.bias: found shape torch.Size([154]) in the checkpoint and torch.Size([95]) in the model instantiated
+- lm_head.weight: found shape torch.Size([154, 1280]) in the checkpoint and torch.Size([95, 1280]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+trainable M 159.692383
+epoch 0 val [0.7771 0.6463 0.9079]
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\utils\checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+epoch 1 loss 0.6972 train_s 164 val [0.8173 0.7118 0.9228] peakGB 7.0
+epoch 2 loss 0.5760 train_s 164 val [0.8255 0.7254 0.9256] peakGB 7.0
+epoch 3 loss 0.5445 train_s 165 val [0.8255 0.7243 0.9268] peakGB 7.0
+epoch 4 loss 0.5251 train_s 56 val [0.8294 0.7317 0.927 ] peakGB 7.0
+epoch 5 loss 0.5109 train_s 128 val [0.8324 0.7353 0.9294] peakGB 7.0
+epoch 6 loss 0.5107 train_s 133 val [0.8304 0.7328 0.928 ] peakGB 7.0
+epoch 7 loss 0.4912 train_s 130 val [0.8332 0.7374 0.929 ] peakGB 7.0
+epoch 8 loss 0.4859 train_s 130 val [0.8347 0.7397 0.9296] peakGB 7.0
