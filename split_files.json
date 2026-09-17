@@ -1,0 +1,45 @@
+{
+ "note": "parts are consecutive byte ranges; run reassemble_split_files.py",
+ "files": [
+  {
+   "path": "dev/runs/a1/lora.pt",
+   "size": 132317766,
+   "sha256": "f409f497eefd354e5722e188642d177c25131a7cdf9eb8660aadd73b40669c40",
+   "parts": [
+    "dev/runs/a1/lora.pt.part000",
+    "dev/runs/a1/lora.pt.part001"
+   ]
+  },
+  {
+   "path": "dev/runs/a3/lora.pt",
+   "size": 543972460,
+   "sha256": "3fd80cf8516559a7cc801880220db70a8d20dbf161bf769a42548507a6144f89",
+   "parts": [
+    "dev/runs/a3/lora.pt.part000",
+    "dev/runs/a3/lora.pt.part001",
+    "dev/runs/a3/lora.pt.part002",
+    "dev/runs/a3/lora.pt.part003",
+    "dev/runs/a3/lora.pt.part004",
+    "dev/runs/a3/lora.pt.part005"
+   ]
+  },
+  {
+   "path": "dev/runs/c0/lora.pt",
+   "size": 132317766,
+   "sha256": "82dfef3a5e0f506a24d0cca4ccbd43e2ff63c65c34f7d2fe545a173154c93b3a",
+   "parts": [
+    "dev/runs/c0/lora.pt.part000",
+    "dev/runs/c0/lora.pt.part001"
+   ]
+  },
+  {
+   "path": "dev/runs/h1/lora.pt",
+   "size": 132317766,
+   "sha256": "27870a62baa151117fafbca91e2618fdfa1c8569e9ec56dbf0acdbbe67872818",
+   "parts": [
+    "dev/runs/h1/lora.pt.part000",
+    "dev/runs/h1/lora.pt.part001"
+   ]
+  }
+ ]
+}
